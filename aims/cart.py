@@ -23,8 +23,8 @@ class Cart:
         print("The disc is not in the cart")
         return False
 
-    def total_cost(self):
-        return sum(item.cost for item in self.items)
+    def total_cost(self, percent):
+        return sum(item.cost for item in self.items) * percent / 100
     
     def print_cart(self):
         if len(self.items) == 0:
