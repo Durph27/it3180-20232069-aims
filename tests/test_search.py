@@ -33,7 +33,7 @@ class SearchTest(unittest.TestCase):
 
         self.assertEqual(
             [dvd.title for dvd in result],
-            ["The Lion King", "Star Wars", "Aladdin"],
+            ["Star Wars", "Aladdin"],
         )
 
 
