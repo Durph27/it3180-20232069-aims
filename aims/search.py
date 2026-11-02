@@ -3,5 +3,4 @@ def search_by_title(title, dvds):
 
     Matching is case-insensitive and preserves the order of ``dvds``.
     """
-    normalized_title = title.casefold()
-    return [dvd for dvd in dvds if normalized_title in dvd.title.casefold()]
+    return [dvd for dvd in dvds if title.lower() in dvd.title.lower()]
