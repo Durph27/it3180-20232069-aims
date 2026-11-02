@@ -27,6 +27,12 @@ class Cart:
         if percent > 100:
             raise ValueError("Discount percent cannot exceed 100")
         return sum(item.cost for item in self.items) * (100 - percent) / 100
+
+    def sort_by_title(self):
+        self.items.sort(key=lambda item: item.title.casefold())
+
+    def sort_by_cost(self):
+        self.items.sort(key=lambda item: item.cost)
     
     def print_cart(self):
         if len(self.items) == 0:
