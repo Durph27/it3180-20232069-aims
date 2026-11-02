@@ -4,8 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+
+## [1.0.0] - 2026-11-02
 ### Added
 - Added `Cart.sort_by_title()` and `Cart.sort_by_cost()` methods.
+- Added `search_by_category()` function[cite: 55]
 
 ## [1.0.0] - 2026-11-02
 

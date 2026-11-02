@@ -12,6 +12,6 @@ def main():
 
 
 if __name__ == "__main__":
-    print("AIMS-mini v1.0.0")
+    print("AIMS-mini v1.1.0")
     main()
     
